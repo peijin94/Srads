@@ -1,6 +1,6 @@
 # **S**olar **Ra**dio  **D**ata processing **s**cripts
 
-## SRS File Visualization
+## (1)  SRS File Visualization
 
 According to official SRS(SOLAR RADIO SPECTROGRAPH)  document from IPS Radio and Space Services, we decode the SRS file and finally visualized it：
 
