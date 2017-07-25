@@ -1,4 +1,4 @@
-# **S**olar **Ra**dio  **D**ata processing **s**cripts
+# ***S***olar ***Ra***dio  ***D***ata processing ***s***cripts
 
 ## SRS File Visualization
 
