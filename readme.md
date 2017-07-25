@@ -1,4 +1,4 @@
-# **S**olar **Ra**dio  **D**ata processing **s**cripts
+# **<span style="color: green"> Some green text </span>S**olar **Ra**dio  **D**ata processing **s**cripts
 
 ## SRS File Visualization
 
