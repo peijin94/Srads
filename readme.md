@@ -59,8 +59,9 @@ Software tool of displaying the raw data (spec.zip) can also be downloaded from 
 ## TODO List
 ### Things plan to do :
 finish data from norh and bleien
+
 prepare demo exmaple set to run the scripts
 ### Things not in plan but want to do :
-prepare optical data visualization and combine it with other things
+prepare optical data visualization and combine it with radio observation
 
 
