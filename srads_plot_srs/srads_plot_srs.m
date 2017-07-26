@@ -1,10 +1,11 @@
 % author : pjer
 % acroding to SRS offical document
-% date : 2016-11-29 23:02:35 
+% date : 2017-07-29 23:02:35 
 % plot .srs data
 
-function plot_srs(fname)
-    close all
+
+function [data, t, f] = srads_plot_srs(fname)
+    close all % close all other graph
     if nargin == 0
         fname = 'D:\acad\data\wdc_spec\LM071231.srs';
     end
