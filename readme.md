@@ -2,7 +2,7 @@
 
  [SRaDs] (**S**)olar (**Ra**)dio  (**D**)ata processing (**s**)cripts
 
-In order to avoid the comflict with any build in function or script namespace, here we use 'srads_' as prefix
+All scripts In order to avoid the comflict with any build in function or script namespace, here we use 'srads_' as prefix
 
 ## (1)  SRS File Visualization (Learmonth)
 
@@ -53,8 +53,8 @@ And the data can be selected and downloaded at [Data form](http://www.sws.bom.go
 Software tool of displaying the raw data (spec.zip) can also be downloaded from [Tool download site](http://www.sws.bom.gov.au/World_Data_Centre/1/1))
 
 ## Bleien solar radio data
+This is a set of observation instrument including Phoenix-3, Phoenix-4 and e-Callisto, there have already been scripts in SSW(solar software) and some [Java GUI](http://soleil.i4ds.ch/solarradio/data/JavaViewers/) to display the data for quick look in data (not analyzing tool).
 
-~ document for bleien solar radio data
 
 ## TODO List
 ### Things plan to do :
