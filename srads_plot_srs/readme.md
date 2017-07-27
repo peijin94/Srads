@@ -1,5 +1,5 @@
 
-# (1)  SRS File Visualization (Learmonth)
+# SRS File Visualization (Learmonth)
 
 According to official SRS(SOLAR RADIO SPECTROGRAPH)  document from IPS Radio and Space Services, we decode the SRS file and finally visualized it, we can use this script to read and visualize the **Learmonth radio spectrographs** data?
 
