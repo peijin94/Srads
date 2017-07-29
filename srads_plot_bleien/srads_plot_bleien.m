@@ -1,4 +1,4 @@
-function s= display_by_fname(fname)
+function [data, t_axes_base, y_axes_base]= srads_plot_bleien(fname)
     % read a fits data and display it
     infom = fitsinfo(fname);
     data = fitsread(fname);
