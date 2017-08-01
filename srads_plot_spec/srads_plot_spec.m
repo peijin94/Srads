@@ -1,7 +1,7 @@
 % author : pjer
 % acroding to SPEC offical document
 % date : 2017-07-25 23:02:35 
-% plot .fits data
+% plot bytes data
 
 function [data,t,f] = srads_plot_spec(fname)
     if nargin<1

@@ -33,9 +33,8 @@ function [data,info] = srads_plot_norh_img(fname)
     th = 0:0.001:2*pi;
     imagesc(data)
     colormap jet
-    colorbar
     hold on
     plot(info.SOLR*cos(th)-info.CRVAL1+info.CRPIX1,info.SOLR*sin(th)-info.CRVAL2+info.CRPIX2,'w')
-    title([(info.ORIGIN),' ',info.TELESCOP,' ( ',info.OBS_FREQ,' ',info.POLARIZ,' )'],'Fontsize',16)
-    text(2,info.NAXIS2*0.98 ,info.PROGNAME,'fontsize',14,'color','w')
+    title([(info.ORIGIN),' ',info.TELESCOP,' ( ',info.OBS_FREQ,' ',info.POLARIZ,' )'])
+    text
 end

@@ -1,7 +1,7 @@
 % author : pjer
 % acroding to bleien offical document
 % date : 2017-07-29 23:02:35 
-% plot byte data
+% plot .fits data
 
 function [data, t_axes_base, y_axes_base]= srads_plot_bleien(fname)
     % read a fits data and display it
