@@ -92,7 +92,7 @@ The product data of Nobeyama Radioheliograph with clean graph is in fits format 
 
 ## TODO List
 ### Things plan to do :
-finish data from norh and bleien
+finish data from norh (updata coordinate) and bleien
 
 prepare demo exmaple set to run the scripts
 ### Things not in plan but want to do :
