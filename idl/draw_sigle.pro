@@ -19,7 +19,7 @@ fnamez =  sup_dir+"ipz140129_044623";
   fi17=norh_tb2flux(dataa,indexa,/intensity)
   fv17=norh_tb2flux(datas,indexs,/intensity) 
   norh_polariz,indexa,fi17,indexs,fv17,indexp,pol,mvdp
-  norh_index2map,indexp,pol*mvdp,mappol
+  norh_index2map,indexp,-pol*mvdp,mappol
   
   !p.multi = [4,2,2,0,0]
   
@@ -28,9 +28,8 @@ fnamez =  sup_dir+"ipz140129_044623";
   
   norh_plot,indexf,dataf,/nobeam,xtitle='X(arcsec)',ytitle='Y(arcsec)'
   norh_plot,indexa,dataa,indexp,pol,mvdp,/nobeam,xtitle='X(arcsec)',ytitle='Y(arcsec)'
-  norh_plot,indexz,dataz,/nobeam,xtitle='X(arcsec)',ytitle='Y(arcsec)'
   
-  plot_map,mappol,/cont,levels=(findgen(1,31)-15)/20,C_COLORS = [100,150,200]
+  plot_map,mappol ,/cont,levels=(findgen(1,61)-30)/50,C_COLORS = indgen(50)*5.1+1
   x0=!x.window(0) & dx=!x.window(1)-!x.window(0)
   y0=!y.window(0) & dy=!y.window(1)-!y.window(0)
   
@@ -38,6 +37,8 @@ fnamez =  sup_dir+"ipz140129_044623";
       ,tickname=['-0.6','-0.3','0','0.3','0.6'] $
       ,ticks=4,color=lcolor,xcharsize=charsize_cb
 
-  WRITE_PNG, 'pic.png', TVRD()
+    norh_plot,indexz,dataz,/nobeam,xtitle='X(arcsec)',ytitle='Y(arcsec)'
+  
+  WRITE_PNG, 'img/pic_'+num2str(2)+'.png', TVRD(/true)
 
 !p.multi=0
