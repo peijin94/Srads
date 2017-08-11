@@ -38,24 +38,24 @@ Format of data:
 Header block: 405 bytes (string giving the analyzer settings)
 
 Dummy: 1 character
-(-) Fmin (MHz): 2 characters
-(-) Fmax (MHz): 2 characters
-(-) Resolution (KHz): 3 characters
-(-) Reference Level (Dbm): 3 characters
-(-) Scanning speed (mS): 5 characters (*)
-(-) Scale (dB / div): 2 characters
-(-) Meridian time: 2 characters
-(-) Minute meridian: 2 characters
-(-) RF Filter Start: 1 character
-(-) Start time filter: 5 characters (hh: mm)
-(-) RF filter first change: 1 character
-(-) First change time: 5 characters
-(-) RF filter second change: 1 character
-(-) Second change time: 5 characters
-(-) Date of meridian: 10 characters
-(-) Start date of observation: 9 characters
-(-) Time of end of observation: 6 characters
-(-) TBD: 340 characters (to be defined)
+(-) Fmin (MHz): 2 characters  
+(-) Fmax (MHz): 2 characters  
+(-) Resolution (KHz): 3 characters  
+(-) Reference Level (Dbm): 3 characters   
+(-) Scanning speed (mS): 5 characters (*)  
+(-) Scale (dB / div): 2 characters  
+(-) Meridian time: 2 characters  
+(-) Minute meridian: 2 characters  
+(-) RF Filter Start: 1 character  
+(-) Start time filter: 5 characters (hh: mm)  
+(-) RF filter first change: 1 character  
+(-) First change time: 5 characters   
+(-) RF filter second change: 1 character  
+(-) Second change time: 5 characters  
+(-) Date of meridian: 10 characters  
+(-) Start date of observation: 9 characters  
+(-) Time of end of observation: 6 characters  
+(-) TBD: 340 characters (to be defined)  
 
 Data blocks: 405 bytes
 (-) Time: 1 byte
