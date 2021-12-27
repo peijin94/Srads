@@ -7,7 +7,7 @@
 
 ; t_range can be set or not
 
-pro srads_plot_nancy,dir_name,f_name,t_range=t_range,f_range=f_range,t_ratio=t_ratio
+pro srads_plot_nancay,dir_name,f_name,t_range=t_range,f_range=f_range,t_ratio=t_ratio
   dname=!d.name
   ; read the original binary data
   OPEN_ROU_A, dir_name,f_name, x,xf,xts,xt, date_obs,h1,m1,s1, h2,m2,s2,/quiet

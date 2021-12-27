@@ -100,13 +100,11 @@ res = constback_sub(raw);
 The product data of Nobeyama Radioheliograph with clean graph is in fits format (but the data files do not have the '.fits' extension), header infomation can be read from the data file, and we can get more detailed information from the data defination document: http://solar.nro.nao.ac.jp/norh/doc/man_v33e.pdf
 
 
+## 5) Nancay NDA
 
-## TODO List
-### Things plan to do :
-finish data from norh and bleien
+Nancay data is in binary form, official data reading script ```OPEN_ROU_A.PRO``` provided by instrument team.
 
-prepare demo exmaple set to run the scripts
-### Things not in plan but want to do :
-prepare optical data visualization and combine it with radio observation
+I wrote a a script ```preprocess_convert_nancay_fits.pro``` to convert nancay data into fits file, which is more commonly used and could be read into all data processing tools (Python, Matlab, etc.)
+
 
 
