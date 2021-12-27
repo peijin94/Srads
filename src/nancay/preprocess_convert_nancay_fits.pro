@@ -1,4 +1,4 @@
-pro preprocess_pack_fits,dir_name,f_name,out_put_dir,f_id=f_id
+pro preprocess_convert_nancay_fits,dir_name,f_name,out_put_dir,f_id=f_id
 
   OPEN_ROU_A, dir_name,f_name, x,xf,xts,xt, date_obs,h1,m1,s1, h2,m2,s2,/quiet
   size_x = size(x)
